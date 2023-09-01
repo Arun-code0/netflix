@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.showcase{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/d282a426-b01a-424c-9b83-2c2445e4b61a/f7eb3bc2-2867-4c7e-94f8-e62ec11175cd/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.show-top{
+   position: relative; 
+   z-index: 1;
+   height: 90px;
+}
+.showcase .n-logo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 175px;
+      height: 80px;
+}
+.signin{
+    background-color: red;
+    border: 0;
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    color: #fff;
+}
+select{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 240px;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    text-align: center;   
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3px;
+}
+.content h1{
+    margin-top: 180px;
+     font-weight: bolder;
+    font-size: 48px;
+}
+.content p{
+    
+    font-size: 30px;
+}
+section{
+    display: flex;
+    margin-top: 15px;
+}
+.get-1{
+     background-color: red;
+     color: white;
+     margin-left: 10px;
+     border: 0;
+}
+.content input{
+    background-color: transparent;
+    width: 300px;
+    color: white;
+    border-color: white;
+}
+input:focus
+{
+    border-color:white;
+}
+input::placeholder{
+    font-size: 15px;
+    padding-left:15px;
+    color: white;
+}
+footer p{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.footercall{
+     display: flex;
+     justify-content:space-between;
+     align-items:center;
+     width: 60%;
+     margin-left: 70px;
+     font-size: 15px;
+}
+
+.footercall li a{
+     text-decoration: none;
+     color: white;
+     line-height: 40px;
+}
+.footercall li{
+     list-style-type: none;
+}
